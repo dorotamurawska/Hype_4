@@ -6,3 +6,10 @@ h1.title {
     font-family: 'Brandon Grotesque Black', sans-serif;
     text-align: center;
 }
+
+@media (max-width: 920px) {
+    h1.title {
+        margin-bottom: 50px;
+        font-size: 46px;
+    }
+}

@@ -8,6 +8,9 @@
 
 @import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold);
 
+:root{
+  overflow-x: hidden;
+}
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +18,7 @@
 }
 body {
   margin: 0 auto;
+  overflow: hidden;
 }
 
 code {

@@ -76,3 +76,34 @@
 }
 }
 
+@media (max-width: 920px) {
+    .row-new-subgroup {
+        .wrap-new-group {
+            width: 100%;
+            .txt-or {
+                font-size: 14px;
+            }
+            .horizontal-line-subgroup {
+                width: 30px;
+            }
+            
+            .vertical-line-subgroup {
+                min-height: 60px;
+            }
+        
+            .row-subgroup {
+                min-height: 41px;
+                .content {
+                    font-size: 14px;
+                }
+                .btn-subtract{
+                    height: 20px;
+                    width: 20px;
+                    margin-left: 10px;
+                    line-height: 20px;
+                    font-size: 14px;
+                }}
+        }
+        }
+}
+

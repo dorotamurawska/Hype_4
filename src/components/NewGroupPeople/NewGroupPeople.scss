@@ -93,4 +93,44 @@
     }
 }
 
-
+@media (max-width: 920px) {
+    .row-new-group {
+        .wrap-new-group {
+            .txt-and {
+                flex-basis: calc(20% - 0.5px);
+                padding-right: 10px;
+                font-size: 14px;
+            }
+            
+            .horizontal-line {
+                width: 50px;
+            }
+            
+            .group-name {
+                margin: 20px 0;
+                min-height: 79px;
+                width: 426px;
+            
+                .shape {
+                    min-height: 79px;
+                    width: 10px;
+                }
+            
+                .content {
+                    margin-left: 10px;
+                    width: 65%;
+                    font-size: 16px;
+                }
+            
+                .btn-subtract{
+                    height: 20px;
+                    width: 20px;
+                    line-height: 20px;
+                    font-size: 14px;
+    
+                }
+            }
+            
+        }
+    }
+}

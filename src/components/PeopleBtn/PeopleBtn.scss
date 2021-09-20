@@ -33,6 +33,16 @@ $people-btn-height: 80px;
   }
 }
 
+@media (max-width: 920px) {
+  .row-people-btn {
+    width: 70%;
+}
+
+.people-btn {
+    font-size: 18px;
+}
+}
+
 
 
 
