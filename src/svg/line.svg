@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="60px" viewBox="0 0 59 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="147.681972%" y1="135.071989%" x2="-12.3919781%" y2="-11.0687275%" id="linearGradient-1">
+            <stop stop-color="#fff" offset="0%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="h4_productdesign" transform="translate(-1147.000000, -523.000000)" stroke="url(#linearGradient-1)" stroke-width="10">
+            <path d="M1152.17029,528.5 L1201,577.236073" transform="translate(1177.000000, 553.000000) scale(1, 1) translate(-1177.000000, -553.000000) "></path>
+        </g>
+    </g>
+</svg>
