@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import Header from './components/Header/Header';
+import Logo from './components/Logo/Logo';
+import People from './components/People/People';
+
+import leftShape from './svg/left_shape.svg';
+import lineShape from './svg/line.svg';
+import rightShape from './svg/right_shape.svg';
+import waveShape from './svg/wave.svg';
+import circleShape from './svg/circle.svg';
+
 import './App.css';
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Logo />
+      <Header />
+      <People />
+      <img src={leftShape} className="left-shape" alt="shape" />
+      <img src={waveShape} className="wave-shape" alt="shape" />
+      <img src={lineShape} className="line-shape" alt="shape" />
+      <img src={rightShape} className="right-shape" alt="shape" />
+      <img src={circleShape} className="circle-shape" alt="shape" />
     </div>
   );
 }
