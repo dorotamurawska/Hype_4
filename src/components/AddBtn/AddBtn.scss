@@ -1,0 +1,44 @@
+.row-btn-add {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-self: flex-start;
+    
+.wrap-big-btn-add {
+    align-self: center;
+    position: relative;
+    height: 96px;
+    width: 96px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 12px 12px 0px rgba(61,234,214,0.3);
+    transition: 0.3s linear;
+    cursor: pointer;
+    &:hover{
+        box-shadow: 0 12px 12px 5px rgba(61,234,214,0.3);
+    }
+
+    .big-btn-add {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 71px;
+        width: 71px;
+        background: linear-gradient(0deg, #27E7E7 0%, #81f2a5 100%);
+        border-radius: 50%;
+        border: none;
+        box-shadow: 0 12px 12px 0 rgba(61,234,214,0.3);
+        color: #fff;
+        font-family: "Brandon Grotesque Bold", sans-serif;
+        font-size: 56px;
+        text-align: center;
+        line-height: 71px;
+        text-shadow: 2px 0px 4px #12C8BF;
+        cursor: pointer;
+    }
+}
+}
+
+

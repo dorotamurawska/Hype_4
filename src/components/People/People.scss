@@ -1,0 +1,21 @@
+.main-rectangle {
+    display: flex;
+    position: relative;
+    padding: 80px;
+    margin: 50px auto 0;
+    width: 80vw;
+    max-width: 1200px;
+    border-radius: 5px;
+    box-shadow: 0 0 37px 0 rgba(225,230,255,0.54);
+    background-color: #fff;
+    z-index: 1;
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+        
+    }
+}
+
